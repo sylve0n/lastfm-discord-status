@@ -8,7 +8,7 @@ This is what it looks like:
 
 ## First Steps
 
-1. Create a Discord application [here](https://discordapp.com/developers/applications/). The name of the application is what your status will display as. Grab the Client ID from the OAuth2 section of your app dashboard.
+1. Create a Discord application [here](https://discordapp.com/developers/applications/). The name of the application is what your status will display as (I named mine "Not Spotify"). Grab the Client ID from the OAuth2 section of your app dashboard.
 
 2. Get an API account on Last.fm [here](https://www.last.fm/api/account/create) and grab the API key from it.
 
@@ -26,15 +26,15 @@ You will need a .env file in the root directory. Copy example.env and rename it,
 
 ### Built-in image icons
 <details><summary>Expand to view (some of them are big)</summary>
-| Tag          |                                Image |
-|:-------------|-------------------------------------:|
-| lastfm       | ![](https://i.imgur.com/122GWJx.png) |
-| youtube      | ![](https://i.imgur.com/CIZRe5K.png) |
-| apple        | ![](https://i.imgur.com/y0BK5xs.jpg) |
-| bandcamp     | ![](https://i.imgur.com/t7J1yCa.png) |
-| soundcloud   | ![](https://i.imgur.com/bnWWcIz.png) |
-| pandora      | ![](https://i.imgur.com/X8iV8q7.jpg) |
-| deezer       | ![](https://i.imgur.com/ZenqnHA.png) |
+| Tag          |                                Image |   
+|:-------------|-------------------------------------:|   
+| lastfm       | ![](https://i.imgur.com/122GWJx.png) |   
+| youtube      | ![](https://i.imgur.com/CIZRe5K.png) |   
+| apple        | ![](https://i.imgur.com/y0BK5xs.jpg) |   
+| bandcamp     | ![](https://i.imgur.com/t7J1yCa.png) |   
+| soundcloud   | ![](https://i.imgur.com/bnWWcIz.png) |   
+| pandora      | ![](https://i.imgur.com/X8iV8q7.jpg) |   
+| deezer       | ![](https://i.imgur.com/ZenqnHA.png) |   
 </details>
 
 Run `npm start` and Discord will display your custom rich presence status with whatever you're currently Scrobbling!

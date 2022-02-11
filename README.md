@@ -26,15 +26,20 @@ You will need a .env file in the root directory. Copy example.env and rename it,
 
 ### Built-in image icons
 <details><summary>Expand to view (some of them are big)</summary>
-| Tag          |                                Image |   
-|:-------------|-------------------------------------:|   
-| lastfm       | ![](https://i.imgur.com/122GWJx.png) |   
-| youtube      | ![](https://i.imgur.com/CIZRe5K.png) |   
-| apple        | ![](https://i.imgur.com/y0BK5xs.jpg) |   
-| bandcamp     | ![](https://i.imgur.com/t7J1yCa.png) |   
-| soundcloud   | ![](https://i.imgur.com/bnWWcIz.png) |   
-| pandora      | ![](https://i.imgur.com/X8iV8q7.jpg) |   
-| deezer       | ![](https://i.imgur.com/ZenqnHA.png) |   
+
+
+ Tag             |                                                                                                 Image |
+|:----------------|-----------------------------------------------------------------------------------------------------:|
+| lastfm      | ![](https://i.imgur.com/122GWJx.png)                          |
+| youtube      | ![](https://i.imgur.com/CIZRe5K.png)                                             |
+| apple    | ![](https://i.imgur.com/y0BK5xs.jpeg)                    |
+| bandcamp       | ![](https://i.imgur.com/t7J1yCa.png) |
+| soundcloud          | ![](https://i.imgur.com/bnWWcIz.png)                          |
+| pandora      | ![](https://i.imgur.com/X8iV8q7.jpeg)             |
+| deezer  | ![](https://i.imgur.com/ZenqnHA.png)           |
+| tidal | ![](https://i.imgur.com/1kQEN65.png)           |
+
+
 </details>
 
 Run `npm start` and Discord will display your custom rich presence status with whatever you're currently Scrobbling!

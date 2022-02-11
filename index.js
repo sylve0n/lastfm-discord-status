@@ -20,7 +20,8 @@ const sImages = new Map([
     ["soundcloud", "https://i.imgur.com/bnWWcIz.png"],
     ["bandcamp", "https://i.imgur.com/t7J1yCa.png"],
     ["deezer", "https://i.imgur.com/ZenqnHA.png"],
-    ["pandora","https://i.imgur.com/X8iV8q7.jpg"]
+    ["pandora","https://i.imgur.com/X8iV8q7.jpg"],
+    ["tidal","https://i.imgur.com/1kQEN65.png"]
 ]);
 for(const item of sImages[Symbol.iterator]()) {
     if (sImageKey == item[0]) {
